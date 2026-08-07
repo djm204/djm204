@@ -73,11 +73,11 @@
   </g>
 
   <!-- Ambient Light Orbs -->
-  <circle cx="110" cy="120" r="75" fill="#00f3ff" opacity="0.08" filter="url(#soft-glow)"/>
-  <circle cx="680" cy="80" r="85" fill="#b000ff" opacity="0.08" filter="url(#soft-glow)"/>
+  <circle cx="105" cy="120" r="75" fill="#00f3ff" opacity="0.08" filter="url(#soft-glow)"/>
+  <circle cx="685" cy="80" r="85" fill="#b000ff" opacity="0.08" filter="url(#soft-glow)"/>
 
   <!-- Visual Node Network Diagram (Left Graphic) -->
-  <g transform="translate(60, 120)">
+  <g transform="translate(58, 120)">
     <!-- Network Connections -->
     <line x1="-35" y1="-30" x2="0" y2="0" stroke="#00f3ff" stroke-width="1.5" opacity="0.6" />
     <line x1="-35" y1="30" x2="0" y2="0" stroke="#00ff9d" stroke-width="1.5" opacity="0.6" />
@@ -97,7 +97,7 @@
   </g>
 
   <!-- Main Header Content -->
-  <g transform="translate(150, 0)">
+  <g transform="translate(145, 0)">
     <!-- Badge / Status Tag -->
     <g transform="translate(0, 36)">
       <rect x="0" y="0" width="185" height="24" rx="12" fill="#00f3ff" fill-opacity="0.1" stroke="#00f3ff" stroke-opacity="0.4" stroke-width="1"/>
@@ -107,7 +107,7 @@
 
     <!-- Title & Gradient Bar -->
     <text x="0" y="92" class="title">NAVIGATING THE LLM LANDSCAPE</text>
-    <rect x="0" y="104" width="605" height="3" rx="1.5" fill="url(#primary-glow)" filter="url(#glow)"/>
+    <rect x="0" y="104" width="613" height="3" rx="1.5" fill="url(#primary-glow)" filter="url(#glow)"/>
 
     <!-- Subtitle -->
     <text x="0" y="131" class="subtitle">Autonomous Agent Architect • Swarm Orchestrator • Model Context Protocol</text>
@@ -128,13 +128,13 @@
 
       <!-- Chip 3: MCP & Tool Protocols -->
       <g transform="translate(302, 0)">
-        <rect x="0" y="0" width="148" height="28" rx="6" fill="#1e293b" stroke="#00ff9d" stroke-opacity="0.3" stroke-width="1"/>
+        <rect x="0" y="0" width="166" height="28" rx="6" fill="#1e293b" stroke="#00ff9d" stroke-opacity="0.3" stroke-width="1"/>
         <text x="12" y="18" class="chip-text" fill="#4ade80">🔌 MCP &amp; Tool Protocols</text>
       </g>
 
       <!-- Chip 4: RAG & Vector DBs -->
-      <g transform="translate(460, 0)">
-        <rect x="0" y="0" width="145" height="28" rx="6" fill="#1e293b" stroke="#facc15" stroke-opacity="0.3" stroke-width="1"/>
+      <g transform="translate(478, 0)">
+        <rect x="0" y="0" width="135" height="28" rx="6" fill="#1e293b" stroke="#facc15" stroke-opacity="0.3" stroke-width="1"/>
         <text x="12" y="18" class="chip-text" fill="#facc15">⚡ RAG &amp; Vector DBs</text>
       </g>
     </g>
