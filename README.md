@@ -16,7 +16,7 @@
 
 > *"In a universe of billions of parameters, static prompts are just noise. True intelligence lies in autonomous agent loops, dynamic tool orchestration, and multi-model synthesis."*
 
-I build at the intersection of **Foundation Models**, **Agentic Architectures**, and **Tool-Assisted Reasoning**. Whether it's steering high-reasoning frontier models, quantizing local LLMs for edge deployment, or building self-correcting agent swarms via the **Model Context Protocol (MCP)**, I navigate the rapidly expanding LLM ecosystem with precision.
+I build at the intersection of **Foundation Models**, **Agentic Architectures**, and **Tool-Assisted Reasoning**. Whether it's steering high-reasoning frontier models, quantizing local LLMs for edge deployment, or building self-correcting agent swarms via the **Model Context Protocol (MCP)**, I navigate the rapidly expanding LLM ecosystem with technical depth and architectural precision.
 
 ---
 
@@ -25,18 +25,18 @@ I build at the intersection of **Foundation Models**, **Agentic Architectures**,
 ```bash
 $ agy-cli inspect --system-fleet --verbose
 
-[SYSTEM INITIALIZATION]
-├── Host OS            : Linux x86_64 (Agentic Workspace)
-├── Active Controller  : Multi-Agent Orchestrator (AGY Protocol)
-├── Primary Stack      : Python 3.12 • TypeScript • PyTorch • vLLM • Docker
-└── Context Capacity   : Infinite Curiosity ⚡
+[SYSTEM CONFIGURATION]
+├── Orchestration Mode : Autonomous Multi-Agent Swarm (AGY Protocol)
+├── Protocol Standard  : Model Context Protocol (MCP v1.0)
+├── Context Window     : Dynamic Budgeting & Sliding Summary
+└── Model Routing      : Latency-Aware Task Classifier
 
-[AGENT FLEET STATUS MATRIX]
- ├── 🕵️  Research Agent    [████████████████████] 100% | Deep Synthesis & Semantic Web Search
- ├── 🛠️  Codebase Agent    [████████████████████] 100% | AST Parsing, Multi-file Refactoring & Verification
- ├── 🧪  Eval & Critic    [████████████████████] 100% | Groundedness Checks & Benchmark Gating
- ├── 🔌  MCP Tool Agent    [████████████████████] 100% | Dynamic Schema Binding & Execution
- └── 🎨  UI/UX Design AGY  [████████████████████] 100% | Modern Aesthetics & Glassmorphism UI
+[ACTIVE AGENT SUBSYSTEMS]
+ ├── 🕵️  Research Agent    [ONLINE] ── Deep Synthesis, Web Search & Semantic Extraction
+ ├── 🛠️  Codebase Agent    [ONLINE] ── Multi-file AST Refactoring & Automated Verification
+ ├── 🧪  Eval & Critic     [ONLINE] ── Groundedness Checks & Benchmark Gatekeeper
+ ├── 🔌  MCP Tool Agent    [ONLINE] ── Schema Binding, API Execution & File Ops
+ └── 🎨  UI/UX Design AGY  [ONLINE] ── Modern UI Aesthetics, Visuals & SVG Design
 ```
 
 ---
@@ -80,7 +80,7 @@ $ agy-cli inspect --system-fleet --verbose
 | Domain | Frameworks & Tools | Highlights / Capabilities |
 | :--- | :--- | :--- |
 | **Frontier Models** | `Gemini 1.5 Pro/Flash` • `Claude 3.7 Sonnet` • `GPT-4o / o3-mini` • `DeepSeek-R1` | Multimodal, Long-Context, CoT Reasoning |
-| **Agentic Frameworks** | `LangGraph` • `AutoGen` `CrewAI` • `LlamaIndex` • `AGY Subagents` | State Machine Loops, Swarms, Self-Correction |
+| **Agentic Frameworks** | `LangGraph` • `AutoGen` • `CrewAI` • `LlamaIndex` • `AGY Subagents` | State Machine Loops, Swarms, Self-Correction |
 | **Protocols & Standards**| `Model Context Protocol (MCP)` • `OpenAPI` • `Structured Outputs (Pydantic/Zod)` | Standardized Tool Integration & Schemas |
 | **Local LLM & Inference**| `Ollama` • `vLLM` • `LM Studio` • `llama.cpp` • `ExLlamaV2` | High-throughput, GGUF/EXL2 Quantization |
 | **Vector DBs & RAG** | `Qdrant` • `ChromaDB` • `Pinecone` • `pgvector` • `Hybrid Search` | Semantic Search, Dense & Sparse Embeddings |
@@ -90,14 +90,18 @@ $ agy-cli inspect --system-fleet --verbose
 
 ---
 
-### 📊 Agentic Capability Gauges
+### ⚡ Agentic Design Patterns & Technical Competencies
 
 ```
-[Agent Loop Orchestration]   ██████████████████████████ 99%
-[Frontier Reasoning Models]  █████████████████████████  97%
-[Tool Use & Function Binding]█████████████████████████  98%
-[RAG & Memory Networks]      ████████████████████████   95%
-[Local Model Deployment]     ███████████████████████    93%
+┌────────────────────────────────┬─────────────────────────────────────────────────────────────┐
+│ Architectural Pattern          │ Implementation Strategy & Specialization                    │
+├────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ 🔁 Self-Correction & Reflection│ Iterative evaluation loops with AST checks & linter feedback│
+│ 🧩 Subagent Delegation         │ Specializing task contexts to preserve clean token windows  │
+│ 🔌 MCP Tool Binding            │ Exposing schema-validated tools (JSON-Schema / Pydantic)    │
+│ 🧠 Hybrid RAG Systems          │ Dense (vector embeddings) + Sparse (BM25) with reranking     │
+│ 🛡️ Deterministic Guardrails   │ Zero-hallucination type safety (Zod / Pydantic validation)  │
+└────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 ```
 
 ---
