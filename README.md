@@ -1,154 +1,110 @@
 <div align="center">
-  <img src="./banner.svg" alt="Navigating the LLM Landscape Banner" width="100%" />
+  <img src="./banner.svg" alt="DJM204 Profile Banner" width="100%" />
 
   <br/><br/>
 
-  [![Agent Fleet Status](https://img.shields.io/badge/Agent_Fleet-ACTIVE_&_ORCHESTRATED-00FF9D?style=for-the-badge&logo=probot&logoColor=black)](https://github.com)
-  [![Context Window](https://img.shields.io/badge/Context_Window-2M%2B_Tokens-8A2BE2?style=for-the-badge&logo=google&logoColor=white)](https://github.com)
-  [![LLM Landscape](https://img.shields.io/badge/LLM_Landscape-NAVIGATED-00F3FF?style=for-the-badge&logo=openai&logoColor=black)](https://github.com)
-  [![Protocol](https://img.shields.io/badge/Protocol-MCP_Ready-FFD700?style=for-the-badge&logo=anthropic&logoColor=black)](https://github.com)
+  [![GitHub Repos](https://img.shields.io/badge/GitHub-120%2B_Repos-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/djm204?tab=repositories)
+  [![Frankenbeast](https://img.shields.io/badge/Frankenbeast-Agent_Runtime-00FF9D?style=for-the-badge&logo=typescript&logoColor=black)](https://github.com/djm204/frankenbeast)
+  [![MCP Servers](https://img.shields.io/badge/Protocol-MCP_Suite-00F3FF?style=for-the-badge&logo=anthropic&logoColor=black)](https://github.com/djm204/mcp-servers)
+  [![Agent Workflows](https://img.shields.io/badge/Workflows-Hermes_%26_Codex-FFD700?style=for-the-badge&logo=probot&logoColor=black)](https://github.com/djm204/codex-review)
 
 </div>
 
 ---
 
-### 🌌 About Me: The LLM & Agentic Navigator
+### 👋 Hi, I'm David (`djm204`)
 
-> *"In a universe of billions of parameters, static prompts are just noise. True intelligence lies in autonomous agent loops, dynamic tool orchestration, and multi-model synthesis."*
+I build **deterministic agent runtimes**, **modular multi-agent systems**, and **tool-augmented LLM infrastructure**. 
 
-I build at the intersection of **Foundation Models**, **Agentic Architectures**, and **Tool-Assisted Reasoning**. Whether it's steering high-reasoning frontier models, quantizing local LLMs for edge deployment, or building self-correcting agent swarms via the **Model Context Protocol (MCP)**, I navigate the rapidly expanding LLM ecosystem with technical depth and architectural precision.
+My work focuses on bridging foundation models with reliable engineering: strict type validation (`Zod`), multi-loop orchestration, Model Context Protocol (`MCP`) tooling, and automated review/testing pipelines.
 
 ---
 
-### 🖥️ Agent Fleet Terminal Output
+### 🛠️ Key Active Projects
 
-```bash
-$ agy-cli inspect --system-fleet --verbose
+#### 🦖 [Frankenbeast](https://github.com/djm204/frankenbeast)
+> *A modular, deterministic agent runtime and guardrails framework built with TypeScript & Turborepo.*
 
-[SYSTEM CONFIGURATION]
-├── Orchestration Mode : Autonomous Multi-Agent Swarm (AGY Protocol)
-├── Protocol Standard  : Model Context Protocol (MCP v1.0)
-├── Context Window     : Dynamic Budgeting & Sliding Summary
-└── Model Routing      : Latency-Aware Task Classifier
+- **The Beast Loop**: Interlocking execution loops for planning, execution, self-critique, and human-in-the-loop governance.
+- **Modular Monorepo Packages**:
+  - `franken-brain` — Memory systems, vector context, and persistence (SQLite/ChromaDB).
+  - `franken-planner` — Task decomposition and execution trees.
+  - `franken-critique` — Self-reflection and output quality gating.
+  - `franken-governor` — HITL approval and safety policies.
+  - `franken-mcp-suite` — MCP server registry, hooks, and execution proxies.
+  - `live-bench` — Real-time CLI benchmarking for agent performance.
 
-[ACTIVE AGENT SUBSYSTEMS]
- ├── 🕵️  Research Agent    [ONLINE] ── Deep Synthesis, Web Search & Semantic Extraction
- ├── 🛠️  Codebase Agent    [ONLINE] ── Multi-file AST Refactoring & Automated Verification
- ├── 🧪  Eval & Critic     [ONLINE] ── Groundedness Checks & Benchmark Gatekeeper
- ├── 🔌  MCP Tool Agent    [ONLINE] ── Schema Binding, API Execution & File Ops
- └── 🎨  UI/UX Design AGY  [ONLINE] ── Modern UI Aesthetics, Visuals & SVG Design
+#### 🐝 [SmartSwarm](https://github.com/djm204/smart-swarm)
+> *Production-grade multi-agent swarm platform and client interface for orchestrated task execution.*
+
+#### 🤖 Agent Review & Automation Tools
+- **[hermes-agent](https://github.com/djm204/hermes-agent)** — Autonomous workflow agent for pull request reviews and Hermes loops.
+- **[codex-review](https://github.com/djm204/codex-review)** — Reusable Claude & Codex review loops for PR gating.
+- **[resolve-issues](https://github.com/djm204/resolve-issues)** — Agent plugins for automated GitHub issue triage and resolution.
+- **[agent-skills](https://github.com/djm204/agent-skills)** — Custom skill templates for agentic coding workflows.
+
+#### 🔌 [mcp-servers](https://github.com/djm204/mcp-servers) & [mcp-web](https://github.com/djm204/mcp-web)
+> *Custom Model Context Protocol (MCP) servers connecting LLMs with web scraping, local tool execution, and workspace state.*
+
+#### ⚡ [ollama-orchestrator](https://github.com/djm204/ollama-orchestrator)
+> *Lightweight local LLM orchestration tooling for privacy-focused Ollama setups.*
+
+---
+
+### 🧰 Real Stack & System Architecture
+
+| Layer | Tools & Technologies |
+| :--- | :--- |
+| **Languages & Runtimes** | TypeScript, Node.js, Python, PyTorch, C++ / Rust |
+| **Agent Runtimes** | `frankenbeast` (Custom), `hermes-agent`, `LangGraph`, `AutoGen`, `Ollama` |
+| **Tool Protocols** | Model Context Protocol (MCP), REST / WebSocket APIs, CLI Execution |
+| **Testing & Quality** | Vitest, Zod Schema Boundaries, Turborepo, Docker, SQLite |
+| **Vector DBs & Memory** | ChromaDB, SQLite Memory Store, Hybrid Search |
+
+---
+
+### 🗺️ The Frankenbeast Architecture
+
+```
+                        ┌──────────────────────────────────────────────┐
+                        │          🎯 REASONING & TASK INPUT           │
+                        └──────────────────────┬───────────────────────┘
+                                               │
+                                               ▼
+                        ┌──────────────────────────────────────────────┐
+                        │         🦖 FRANKENBEAST ORCHESTRATOR         │
+                        │           (The Beast Execution Loop)         │
+                        └──────┬───────────────┬───────────────┬───────┘
+                               │               │               │
+         ┌─────────────────────┘               │               └─────────────────────┐
+         ▼                                     ▼                                     ▼
+┌─────────────────┐                   ┌──────────────────┐                  ┌──────────────────┐
+│ 🧠 franken-brain│                   │📋franken-planner │                  │🧪franken-critique│
+│ (Memory & State)│                   │(Task Trees & Plan│                  │ (Self-Reflection)│
+└─────────────────┘                   └──────────────────┘                  └──────────────────┘
+         │                                     │                                     │
+         └─────────────────────┬───────────────┴───────────────┬─────────────────────┘
+                               │                               │
+                               ▼                               ▼
+                    ┌─────────────────────┐         ┌─────────────────────┐
+                    │🔌 franken-mcp-suite │         │🛡️ franken-governor  │
+                    │(Tools & External API│         │(HITL & Policy Safety│
+                    └─────────────────────┘         └─────────────────────┘
 ```
 
 ---
 
-### 🗺️ Multi-Agent Architecture & Flow
-
-```
-                      ┌──────────────────────────────────────────────┐
-                      │          🎯 INTENT & PROMPT ROUTER           │
-                      └──────────────────────┬───────────────────────┘
-                                             │
-         ┌───────────────────────────────────┼───────────────────────────────────┐
-         ▼                                   ▼                                   ▼
-  ┌──────────────┐                  ┌──────────────────┐               ┌─────────────────┐
-  │ 🧠 REASONING │                  │ ⚡ SPEED & TOOLS │               │ 🔒 LOCAL PRIVACY│
-  │ (Gemini 1.5/ │                  │  (Claude 3.7 /   │               │   (Ollama /     │
-  │  o3-mini)    │                  │   GPT-4o)        │               │   DeepSeek-R1)  │
-  └──────┬───────┘                  └────────┬─────────┘               └────────┬────────┘
-         │                                   │                                  │
-         └───────────────────────────────────┼───────────────────────────────────┘
-                                             ▼
-                      ┌──────────────────────────────────────────────┐
-                      │     🤖 AGENTIC MULTI-AGENT ORCHESTRATOR      │
-                      │  (Planner • Executor • Critic • Memory DB)   │
-                      └──────────────────────┬───────────────────────┘
-                                             │
-         ┌───────────────────────────────────┴───────────────────────────────────┐
-         ▼                                                                       ▼
-┌───────────────────────────┐                                   ┌───────────────────────────┐
-│ 🛠️  MCP TOOL EXECUTION    │                                   │ 🧠 LONG-TERM MEMORY & RAG │
-│ (APIs, Code, File Systems)│                                   │ (Vector DBs & Knowledge) │
-└───────────────────────────┘                                   └───────────────────────────┘
-```
-
----
-
-### 🧰 LLM Landscape & Technology Stack
+### 📫 Connect
 
 <div align="center">
 
-| Domain | Frameworks & Tools | Highlights / Capabilities |
-| :--- | :--- | :--- |
-| **Frontier Models** | `Gemini 1.5 Pro/Flash` • `Claude 3.7 Sonnet` • `GPT-4o / o3-mini` • `DeepSeek-R1` | Multimodal, Long-Context, CoT Reasoning |
-| **Agentic Frameworks** | `LangGraph` • `AutoGen` • `CrewAI` • `LlamaIndex` • `AGY Subagents` | State Machine Loops, Swarms, Self-Correction |
-| **Protocols & Standards**| `Model Context Protocol (MCP)` • `OpenAPI` • `Structured Outputs (Pydantic/Zod)` | Standardized Tool Integration & Schemas |
-| **Local LLM & Inference**| `Ollama` • `vLLM` • `LM Studio` • `llama.cpp` • `ExLlamaV2` | High-throughput, GGUF/EXL2 Quantization |
-| **Vector DBs & RAG** | `Qdrant` • `ChromaDB` • `Pinecone` • `pgvector` • `Hybrid Search` | Semantic Search, Dense & Sparse Embeddings |
-| **Languages & Tooling** | `Python` • `TypeScript` • `PyTorch` • `FastAPI` • `Docker` • `Git` | High-performance Async Systems & Pipelines |
-
-</div>
-
----
-
-### ⚡ Agentic Design Patterns & Technical Competencies
-
-```
-┌────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ Architectural Pattern          │ Implementation Strategy & Specialization                    │
-├────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ 🔁 Self-Correction & Reflection│ Iterative evaluation loops with AST checks & linter feedback│
-│ 🧩 Subagent Delegation         │ Specializing task contexts to preserve clean token windows  │
-│ 🔌 MCP Tool Binding            │ Exposing schema-validated tools (JSON-Schema / Pydantic)    │
-│ 🧠 Hybrid RAG Systems          │ Dense (vector embeddings) + Sparse (BM25) with reranking     │
-│ 🛡️ Deterministic Guardrails   │ Zero-hallucination type safety (Zod / Pydantic validation)  │
-└────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-```
-
----
-
-<details>
-<summary>⚡ <b>Click to expand: Current Missions & LLM Frontiers</b></summary>
-
-<br/>
-
-- 🤖 **Autonomous Coding Agents**: Building self-correcting agent loops with automated test evaluation and linting feedback.
-- 🔌 **MCP Server Ecosystem**: Authoring specialized Model Context Protocol tools for deep codebase analysis and API automation.
-- 🧠 **Context Compression**: Optimizing token budgets and dynamic memory summaries for multi-turn multi-agent workflows.
-- 🛡️ **AI Safety & Deterministic Guardrails**: Ensuring structured JSON outputs, hallucination gating, and fallback loops.
-
-</details>
-
----
-
-### ⚡ Technologies & Languages
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-</div>
-
----
-
-### 📫 Establish Signal Connection
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![X / Twitter](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/djm204)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00F3FF?style=for-the-badge&logo=react&logoColor=black)](https://github.com/djm204/cursor-portfolio)
 
 </div>
 
 <br/>
 
 <div align="center">
-  <sub>🤖 Built for navigating the LLM frontier • Powered by Agentic Intelligence</sub>
+  <sub>⚡ Building deterministic agent infrastructure & modular LLM tooling</sub>
 </div>
